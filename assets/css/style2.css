@@ -48,8 +48,10 @@ div input,
 div label,
 div button {
     display: block;
-    width: 100%;
+    width: 30%;
+    margin: auto;
     margin-bottom: 10px;
+    border-radius: 7px;
 }
 
 
