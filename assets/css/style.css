@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #494D45;
+    --primary-color-darker: #68993A;
+    --primary-color-darker2: #89C94D;
+    --primary-color-darker3: #BDD4A7;
+    --primary-color-darker4: #324A1C;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, var(--primary-color-darker3), var(--primary-color-darker4));
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+div input,
+div label,
+div button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+div input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+div input:focus {
+    outline: 1px solid var(--primary-color)
+}
+
+div button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+
+#nao-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+div button:hover {
+    background: var(--primary-color-darker);
+}
+
+p {
+    text-align: justify;
+    text-indent: 1px;
+    font-size: 1em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+
+footer {
+    color: white;
+    font-size: 0.8rem;
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
