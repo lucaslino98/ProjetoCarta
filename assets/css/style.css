@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to bottom, var(--primary-color-darker3), var(--primary-color-darker4));
+    background-size: cover;
     font-family: 'Open sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
@@ -80,6 +81,13 @@ p {
     text-align: justify;
     text-indent: 1px;
     font-size: 1em;
+}
+
+.text {
+    padding-top: 20px;
+    text-decoration: black;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 
